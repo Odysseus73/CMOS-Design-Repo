@@ -50,15 +50,25 @@ Small-signal AC analysis is performed to evaluate the gain–frequency response 
 .ac dec 100 1 1e9
 
 ```
+## Schematic
+
+<img width="1254" height="779" alt="image" src="https://github.com/user-attachments/assets/1cd8e459-664f-47c2-8ca7-761f4c5e790a" />
+
 ## Simulation Results
 
 ### Initial Gain–Frequency Response
+
+<img width="615" height="508" alt="image" src="https://github.com/user-attachments/assets/5a35a441-9e8a-4797-8922-996dba694b2e" />
+
 
 - Moderate DC gain observed  
 - Early gain roll-off  
 - Bandwidth limited due to initial biasing and transistor sizing  
 
 ### Optimized Gain–Frequency Response
+
+<img width="708" height="540" alt="image" src="https://github.com/user-attachments/assets/9d0205d9-5e1e-4a37-ab80-985e25f2b6d4" />
+
 
 After tuning the following parameters:
 - Bias voltages  
