@@ -99,5 +99,19 @@ The amplifier shows:
 - Understanding the telescopic CMOS operational amplifier architecture  
 - Practical experience working with the Sky130A PDK  
 - Insight into the impact of biasing and transistor sizing on analog performance  
-- Performing AC analysis using NGSpice  
+- Performing AC analysis using NGSpice
+
+## License
+
+This project is intended **strictly for educational and academic purposes only**.  
+All designs and simulations are provided for learning and reference, with no warranty or guarantee of fitness for commercial use.
+
+## Locating the Sky130 Model File (Linux)
+
+To find the Sky130 model library file (`sky130.lib.spice`) on a Linux system, run the following command in the terminal:
+
+```bash
+sudo find / -type f -name "sky130.lib.spice" 2>/dev/null
+```
+
 
