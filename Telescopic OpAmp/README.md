@@ -48,3 +48,56 @@ Small-signal AC analysis is performed to evaluate the gain–frequency response 
 
 ```spice
 .ac dec 100 1 1e9
+
+```
+## Simulation Results
+
+### Initial Gain–Frequency Response
+
+- Moderate DC gain observed  
+- Early gain roll-off  
+- Bandwidth limited due to initial biasing and transistor sizing  
+
+### Optimized Gain–Frequency Response
+
+After tuning the following parameters:
+- Bias voltages  
+- Tail current  
+- Transistor W/L ratios  
+
+The amplifier shows:
+- Improved DC gain  
+- Increased bandwidth  
+- Enhanced overall AC performance  
+
+---
+
+## Performance Summary (Qualitative)
+
+| Parameter | Observation |
+|----------|-------------|
+| **DC Gain** | Improved after bias and W/L optimization |
+| **Bandwidth** | Increased |
+| **Power Consumption** | Low (single-stage design) |
+| **Stability** | Inherently stable due to dominant pole |
+
+---
+
+## Design Insights
+
+- Cascoding significantly increases output resistance, leading to higher voltage gain  
+- Proper biasing is essential to:
+  - Maintain all MOS transistors in saturation  
+  - Maximize small-signal gain  
+- Telescopic op-amps trade output voltage swing for higher speed and gain  
+- Single-stage architecture eliminates the need for Miller compensation  
+
+---
+
+## Learning Outcomes
+
+- Understanding the telescopic CMOS operational amplifier architecture  
+- Practical experience working with the Sky130A PDK  
+- Insight into the impact of biasing and transistor sizing on analog performance  
+- Performing AC analysis using NGSpice  
+
