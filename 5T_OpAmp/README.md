@@ -1,4 +1,4 @@
-## 5T Operational Transconductance Amplifier (OTA)  
+# 5T Operational Transconductance Amplifier (OTA)  
 **Technology:** SKY130 (sg13_lv devices)  
 **Tools:** Xschem, Ngspice  
 **Supply Voltage:** 1.5 V
